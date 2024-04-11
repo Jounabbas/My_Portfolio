@@ -1,0 +1,223 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.nave{
+   position: fixed;
+   top: 4%;
+   right: 20px;
+   width: 60px;
+   height: 550px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.light_icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #727272;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease-in-out;
+    position: relative;
+    cursor: pointer;
+}
+.light_icon:hover{
+    background-color: #ee6192;
+    transition: all .2s ease-in-out;
+}
+.light_icon span{
+    background-color: #ee6192;
+    position: absolute;
+    top: 0%;
+    right: 50%;
+    height: 100%;
+    border-radius: 25px 0px 0px 25px;
+    width: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    overflow: hidden;
+   display: flex;
+   z-index: -1;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease-in-out;
+}
+.light_icon:hover span{
+    width: 300%;
+    background-color:  #ee6192;
+    transition: all .2s ease-in-out;
+}
+
+.light_mode{
+   font-size: 25px;
+   color: white;
+  
+}
+.nave ul li{
+    list-style: none;
+    margin-bottom: 30px;
+}
+.nave a{
+    color: white;
+    text-decoration: none;
+}
+
+.green:hover{
+    background-color: #05c46b;
+    transition: all .2s ease-in-out;
+  
+}
+.green{
+    border: 1.5px solid #05c46b ;
+}
+.green span{
+    background-color: #05c46b;
+    transition: all .2s ease-in-out;
+    
+}
+.green:hover span{
+    background-color: #05c46b;
+    transition: all .2s ease-in-out;
+    border: 2px solid #05c46b ;
+}
+.acqua:hover{
+    background-color: #55efc4;
+    transition: all .2s ease-in-out;
+}
+.acqua {
+    border: 1.5px solid #55efc4;
+}
+.acqua span{
+    background-color: #55efc4;
+    transition: all .2s ease-in-out;
+}
+.acqua:hover span{
+    background-color: #55efc4;
+    transition: all .2s ease-in-out;
+    border: 1.5px solid #55efc4;
+}
+.yellow:hover{
+    background-color: #ffb400;
+    transition: all .2s ease-in-out;
+}
+.yellow {
+    border: 1.5px solid #ffb400;
+}
+.yellow span{
+    background-color: #ffb400;
+    transition: all .2s ease-in-out;
+}
+.yellow:hover span{
+    background-color: #ffb400;
+    transition: all .2s ease-in-out;
+    border: 1.5px solid #ffb400;
+}
+#light{
+    background-color: lightgray; 
+    transition: all .2s ease-in-out;
+}
+#light:hover{
+    background-color: #ee6192;
+    transition: all .2s ease-in-out;
+}
+.pico:hover{
+    background-color: #fd79a8;
+    transition: all .2s ease-in-out;
+}
+.pico{
+    border: 1.5px solid #fd79a8;
+}
+.pico span{
+    background-color: #fd79a8;
+    transition: all .2s ease-in-out;
+}
+.pico:hover span{
+    background-color: #fd79a8;
+    transition: all .2s ease-in-out;
+    border: 1.5px solid #fd79a8;
+}
+.orange:hover{
+    background-color: #e17055;
+    transition: all .2s ease-in-out;
+}
+.orange{
+    border: 1.5px solid #e17055;
+}
+.orange span{
+    background-color: #e17055;
+    transition: all .2s ease-in-out;
+}
+.orange:hover span{
+    background-color: #e17055;
+    transition: all .2s ease-in-out;
+    border: 1.5px solid #e17055;
+}
+.blue:hover{
+    background-color: #0652DD;
+    transition: all .2s ease-in-out;
+}
+.blue{
+    border: 1.5px solid #0652DD;
+}
+.blue span{
+    background-color: #0652DD;
+    transition: all .2s ease-in-out;
+}
+.blue:hover span{
+    background-color: #0652DD;
+    transition: all .2s ease-in-out;
+    border: 1.5px solid #0652DD;
+}
+.rose:hover{
+    background-color: #FDA7DF;
+    transition: all .2s ease-in-out;
+}
+.rose{
+    border: 1.5px solid #FDA7DF;
+}
+.rose span{
+    background-color: #FDA7DF;
+    transition: all .2s ease-in-out;
+}
+.rose:hover span{
+    background-color: #FDA7DF;
+    transition: all .2s ease-in-out;
+    border: 1.5px solid #FDA7DF;
+}
+.disko:hover{
+    background-color: #0fbcf9;
+    transition: all .2s ease-in-out;
+}
+.disko{
+    border: 1.5px solid #0fbcf9;
+}
+.disko span{
+    background-color: #0fbcf9;
+    transition: all .2s ease-in-out;
+}
+.disko:hover span{
+    background-color: #0fbcf9;
+    transition: all .2s ease-in-out;
+    border: 1.5px solid #0fbcf9;
+}
+.red:hover{
+    background-color: rgb(255, 56, 56);
+    transition: all .2s ease-in-out;
+}
+.red{
+    border: 1.5px solid rgb(255, 56, 56);
+}
+.red span{
+    background-color: rgb(255, 56, 56);
+    transition: all .2s ease-in-out;
+}
+.red:hover span{
+    background-color: rgb(255, 56, 56);
+    transition: all .2s ease-in-out;
+    border: 1.5px solid rgb(255, 56, 56);
+}

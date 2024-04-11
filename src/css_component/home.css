@@ -1,0 +1,157 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.home_sec1{
+    height: 100vh;
+    width: 100%;
+   display: grid;
+   grid-template-columns: 1fr 1.2fr;
+   column-gap: 20px;
+}
+.home_sec2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    z-index: -1;
+}
+
+.home_sec3{
+   background-color: palevioletred;
+}
+.home_sec4{
+    position: absolute;
+    top: 5vh; 
+    left: 15%;
+    /* margin-top: 5vh; */
+    height: 90vh;
+    width: 70%;
+    /* margin-left: -300px; */
+    border-radius: 50px;
+ 
+}
+.home_sec4 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+.home_sec5{
+    height: 100vh;
+}
+.home_sec6{
+    width: 70%;
+    margin-top: 30vh;
+    margin-left:15%;
+    color: white;
+    width: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.home_sec7{
+    width: 40px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: palevioletred;
+    float: left;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+.home_sec6 h1{
+    margin-left: 70px;
+    line-height: 60px;
+    font-weight: bold;
+    word-spacing: 10px;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.home_sec6 h1 span{
+    color: palevioletred;
+}
+.home_sec6 p{
+  
+   margin-top: 30px;
+   text-align: justify;
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 30px;
+}
+.btn {
+  position: relative;
+  width: 300px;
+  height: 60px;
+  margin-top: 30px;
+    border-radius: 40px;
+  overflow: hidden;
+  border: 3px solid aqua;
+}
+
+.btn button{
+    width: 300px;
+    height: 60px;
+    border: none;
+    background: none;
+    color: white;
+    border-radius: 0;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+}
+.home_sec6 button{
+    width: 250px;
+    height: 60px;
+    margin-top: 30px;
+    background: none;
+    border-radius: 50px;
+    border: 2px solid palevioletred;
+    border: 2px solid palevioletredc;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    transition: all .5s ease-in-out;
+}
+.hover_effect{
+    position: absolute;
+    top: 0;
+    right: 6.5%;
+    width: 0%;
+    height: 100%;
+    background-color: palevioletred;
+   border-radius: 50px;
+   z-index: -1;
+   transition: all .5s ease-in-out;
+}
+button:hover .hover_effect{
+    width: 93.5%;
+    transition: all .5s ease-in-out;
+}
+.text{
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 15px;
+}
+ .span{
+    width: 59px;
+    height: 59px;
+    background-color: palevioletred;
+    display: inline-block;
+    border-radius: 50px;
+    margin-top: -1px;
+    font-weight: bold;
+    float: right;
+}
+.ico{
+    margin-top: 10px;
+    font-size: 35px;
+}
+.icon{
+  position: absolute;
+  top: -1px;
+  right: 0;
+  font-size: 25px;
+  border-radius: 30px;
+  background-color: aqua;
+  border: 1px solid aqua;
+  width: 60px ;
+  height: 55px;
+}

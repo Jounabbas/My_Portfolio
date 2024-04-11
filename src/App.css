@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0cqb;
+  box-sizing: border-box;
+}
+body{
+ opacity: 1;
+}
+
+#acqua{
+  background-color: #55efc4;
+}
+#acquas{
+  color: #55efc4;
+}
+#acquad{
+  background-color: #55efc4;
+}
+#acquab{
+  border:2px solid #55efc4;
+}
+
+#yellow{
+  background-color: #ffb400;
+}
+#yellowb{
+  border: 2px solid #ffb400;
+}
+#yellows{
+ color: #ffb400;
+}
+#pico{
+  background-color: #fd79a8;
+}
+#picob{
+  border: 2px solid #fd79a8;
+}
+#picos{
+ color: #fd79a8;
+}
+#orange{
+  background-color: #e17055;
+}
+#orangeb{
+  border: 2px solid #e17055;
+}
+#oranges{
+  color: #e17055;
+}
+#blue{
+  background-color: #0652DD;
+}
+#blueb{
+  border: 2px solid #0652DD;
+}
+#blues{
+  color: #0652DD;
+}
+#rose{
+  background-color: #FDA7DF;
+}
+#roseb{
+  border: 2px solid #FDA7DF;
+}
+#roses{
+  color: #FDA7DF;
+}
+#disko{
+  background-color: #0fbcf9;
+}
+#diskob{
+  border: 2px solid #0fbcf9;
+}
+#diskos{
+  color:#0fbcf9 ;
+}
+#red{
+  background-color: #f53b57;
+}
+#redb{
+  border: 2px solid #f53b57;
+}
+#reds{
+  color: #f53b57;
+}
+#green{
+  background-color: #05c46b;
+}
+#greenb{
+  border: 2px solid #05c46b;
+}
+#greens{
+  color: #05c46b;
+}
