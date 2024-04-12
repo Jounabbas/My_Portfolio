@@ -101,4 +101,11 @@
     .home_sec6{
         width: 320px;
     }
+    .home_sec4{
+        height: 200px;
+    }
+    .home_sec4 img{
+        height: 200px;
+        width: 200px;
+    }
 }
