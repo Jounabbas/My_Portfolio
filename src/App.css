@@ -6,7 +6,10 @@
 body{
  opacity: 1;
 }
-
+#acquah:hover{
+  background-color: #55efc4;
+  transition: all .3s ease-in-out;
+}
 #acqua{
   background-color: #55efc4;
 }
@@ -19,7 +22,10 @@ body{
 #acquab{
   border:2px solid #55efc4;
 }
-
+#yellowh:hover{
+  background-color: #ffb400;
+  transition: all .3s ease-in-out;
+}
 #yellow{
   background-color: #ffb400;
 }
@@ -28,6 +34,10 @@ body{
 }
 #yellows{
  color: #ffb400;
+}
+#picoh:hover{
+  background-color: #fd79a8;
+  transition: all .3s ease-in-out;
 }
 #pico{
   background-color: #fd79a8;
@@ -38,6 +48,10 @@ body{
 #picos{
  color: #fd79a8;
 }
+#orangeh:hover{
+  background-color: #e17055;
+  transition: all .3s ease-in-out;
+}
 #orange{
   background-color: #e17055;
 }
@@ -46,6 +60,10 @@ body{
 }
 #oranges{
   color: #e17055;
+}
+#blueh:hover{
+  background-color: #0652DD;
+  transition: all .3s ease-in-out;
 }
 #blue{
   background-color: #0652DD;
@@ -56,6 +74,10 @@ body{
 #blues{
   color: #0652DD;
 }
+#roseh:hover{
+  background-color: #FDA7DF;
+  transition: all .3s ease-in-out;
+}
 #rose{
   background-color: #FDA7DF;
 }
@@ -64,6 +86,10 @@ body{
 }
 #roses{
   color: #FDA7DF;
+}
+#diskoh:hover{
+  background-color: #0fbcf9;
+  transition: all .3s ease-in-out;
 }
 #disko{
   background-color: #0fbcf9;
@@ -74,6 +100,10 @@ body{
 #diskos{
   color:#0fbcf9 ;
 }
+#redh:hover{
+  background-color: #f53b57;
+  transition: all .3s ease-in-out;
+}
 #red{
   background-color: #f53b57;
 }
@@ -82,6 +112,10 @@ body{
 }
 #reds{
   color: #f53b57;
+}
+#greenh:hover{
+  background-color: #05c46b;
+  transition: all .3s ease-in-out;
 }
 #green{
   background-color: #05c46b;

@@ -2,14 +2,13 @@ import React, { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { appcontext } from "../context/context";
 import "../css_component/home.css";
-import "../css_component/responsive.css"
-import img from "../.png"
+import "../css_component/home_responsive.css"
 import { GrFormNextLink } from "react-icons/gr";
 
 const Home = () => {
   const navigate = useNavigate();
-  const { mode, color, setcolor } = useContext(appcontext);
-  const [setting, setsettig] = useState(true);
+  const { mode, color } = useContext(appcontext);
+  const [setting] = useState(true);
   console.log(setting);
   return (
     <div className="home_sec1">
@@ -18,11 +17,11 @@ const Home = () => {
 
         </div>
         <div className="home_sec4">
-          <img src="https://tunis-next.netlify.app/assets/img/dark.jpg" />
+          <img src="https://tunis-next.netlify.app/assets/img/dark.jpg" alt="..." />
         </div>
       </div>
 
-      <div className="home_sec5">
+      <div className="home_sec5"> 
         <div className="home_sec6">
           <div className="home_sec7" id={`${color}`} w></div>
           <h1>

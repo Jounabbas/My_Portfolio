@@ -29,7 +29,6 @@
     width: 70%;
     /* margin-left: -300px; */
     border-radius: 50px;
-  
  
 }
 .home_sec4 img{
@@ -105,6 +104,7 @@
     background: none;
     border-radius: 50px;
     border: 2px solid palevioletred;
+    border: 2px solid palevioletredc;
     font-weight: bold;
     cursor: pointer;
     position: relative;
