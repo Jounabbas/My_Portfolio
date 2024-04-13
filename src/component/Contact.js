@@ -8,7 +8,7 @@ import { GrFacebookOption } from "react-icons/gr";
 import { FaTwitter } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
-import { RiSendPlaneFill } from "react-icons/ri";
+import { RiSendPlaneFill } from "react-icons/ri"; 
 
 const Contact = () => {
     const {color,mode}=useContext(appcontext)

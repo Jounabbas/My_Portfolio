@@ -9,12 +9,12 @@
     height: 100vh;
  
 }
-.header{
+.header{ 
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20vh;
+    margin-top: 16vh;
 }
 .header h1{
     color:#2f2f2f ;
@@ -66,7 +66,7 @@
 
 .mail_icon{
 
-    font-size: 45px;
+    font-size: 40px;
     color: palevioletred;
 
 }
@@ -91,8 +91,8 @@
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     transition: all .3s ease-in-out;
    border-radius: 50%;
    cursor: pointer;
