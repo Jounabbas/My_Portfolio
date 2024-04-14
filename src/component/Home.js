@@ -51,7 +51,7 @@ const Home = () => {
             <span className="hover_effect" id={color}></span>{" "}
           </button>
         </div>
-      </div>
+      </div> 
     </div>
   );
 };

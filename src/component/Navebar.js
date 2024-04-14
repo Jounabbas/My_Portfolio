@@ -10,7 +10,7 @@ import { NavLink } from 'react-router-dom';
 import { appcontext } from '../context/context';
 const Navebar = () => {
    const{mode,setmode,color}=useContext(appcontext)
-   console.log(color)
+   console.log(color) 
    
   return (
     <div className='nave'>

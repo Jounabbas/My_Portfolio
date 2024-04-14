@@ -28,8 +28,12 @@
         grid-template-columns: 1fr 1.5fr;
     }
     .home_sec4{
+        margin-bottom: 40px;
         left: 10%;
         width: 80%;
+    }
+    .home_sec2{
+        margin-bottom: 40px;
     }
 }
 @media screen and (max-width: 1070px) {

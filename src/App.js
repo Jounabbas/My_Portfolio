@@ -8,6 +8,7 @@ import { useContext ,useEffect} from 'react';
 import { appcontext } from './context/context';
 import { Color_change } from './component/Color_change';
 import Contact from './component/Contact';
+import About from './component/About';
 
 function App() {
   const {mode}=useContext(appcontext)
@@ -27,6 +28,7 @@ function App() {
        <Color_change/>
         <Routes>
           <Route exact path='/' element={<Home/>}/>
+          <Route exact path='/about' element={<About/>}/>
           <Route exact path='/contact' element={<Contact/>}/>
         </Routes>
       </Main>

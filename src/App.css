@@ -6,6 +6,7 @@
 body{
  opacity: 1;
 }
+
 #acquah:hover{
   background-color: #55efc4;
   transition: all .3s ease-in-out;

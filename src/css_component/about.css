@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding:0 ;
+    box-sizing: border-box;
+}
+.container2{
+    width: 70%;
+    height: 100vh;
+    margin-left: 15%;
+
+} 
+.about_header{
+    margin-top: 5vh;
+}
+.about_sec1{
+    width:  100%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+}
+.about_item1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+.about_me{
+    margin-top: 30px;
+   margin-bottom: 20px;
+}
+.about_btn{
+    width: 300px;
+}
+.about_me p{
+    color: #939393;
+    font-size: 17px;
+    margin-top: 25px;
+}
+.about_me span{
+    font-weight: 700;
+}
+.about_item2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   column-gap:50px ;
+   row-gap: 20px;
+}
+.experience{
+    border: 1px solid #939393;
+    border-radius: 10px;
+}
+.experience h1{
+    color: palevioletred;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 20px;
+}
+.experience p{
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.horizenatl_line{
+    margin-top: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.horizenatl_line hr{
+    height: 2px;
+    width: 40%;
+    border-radius: 2px;
+    background-color: #939393;
+} 
+.skil{
+    color: white;
+}
