@@ -6,7 +6,9 @@
 body{
  opacity: 1;
 }
-
+#acquabor{
+  border: 7px solid #55efc4;
+}
 #acquah:hover{
   background-color: #55efc4;
   transition: all .3s ease-in-out;
@@ -22,6 +24,9 @@ body{
 }
 #acquab{
   border:2px solid #55efc4;
+}
+#yellowbor{
+  border: 7px solid #ffb400;
 }
 #yellowh:hover{
   background-color: #ffb400;
@@ -40,6 +45,9 @@ body{
   background-color: #fd79a8;
   transition: all .3s ease-in-out;
 }
+#picobor{
+  border: 7px solid #fd79a8;
+}
 #pico{
   background-color: #fd79a8;
 }
@@ -52,6 +60,9 @@ body{
 #orangeh:hover{
   background-color: #e17055;
   transition: all .3s ease-in-out;
+}
+#orangebor{
+  border: 7px solid #e17055;
 }
 #orange{
   background-color: #e17055;
@@ -66,6 +77,9 @@ body{
   background-color: #0652DD;
   transition: all .3s ease-in-out;
 }
+#bluebor{
+  border: 7px solid #0652DD;
+}
 #blue{
   background-color: #0652DD;
 }
@@ -78,6 +92,9 @@ body{
 #roseh:hover{
   background-color: #FDA7DF;
   transition: all .3s ease-in-out;
+}
+#rosebor{
+  border: 7px solid #FDA7DF;
 }
 #rose{
   background-color: #FDA7DF;
@@ -92,6 +109,9 @@ body{
   background-color: #0fbcf9;
   transition: all .3s ease-in-out;
 }
+#diskobor{
+  border: 7px solid #0fbcf9;
+}
 #disko{
   background-color: #0fbcf9;
 }
@@ -105,6 +125,9 @@ body{
   background-color: #f53b57;
   transition: all .3s ease-in-out;
 }
+#redbor{
+  border: 7px solid #f53b57;
+}
 #red{
   background-color: #f53b57;
 }
@@ -117,6 +140,9 @@ body{
 #greenh:hover{
   background-color: #05c46b;
   transition: all .3s ease-in-out;
+}
+#greenbor{
+  border: 7px solid #05c46b;
 }
 #green{
   background-color: #05c46b;

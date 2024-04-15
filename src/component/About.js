@@ -130,6 +130,58 @@ const About = () => {
     </div>
 
 
+    <div className="skil_section">
+      <div className="skill_detail" style={mode?{}:{color:"#626262"}}>
+        <div className="skill_name" id={`${color}bor`} style={mode?{}:{color:"#626262"}}>
+          90%
+        </div>
+        <h3>REACT</h3>
+      </div>
+      <div className="skill_detail" style={mode?{}:{color:"#626262"}}>
+        <div className="skill_name" id={`${color}bor`} style={mode?{}:{color:"#626262"}}>
+          90%
+        </div>
+        <h3>REACT-REDUX</h3>
+      </div>
+      <div className="skill_detail" style={mode?{}:{color:"#626262"}}>
+        <div className="skill_name" id={`${color}bor`} style={mode?{}:{color:"#626262"}}>
+          100%
+        </div>
+        <h3>ANTD DESIGN</h3>
+      </div>
+      <div className="skill_detail" style={mode?{}:{color:"#626262"}}>
+        <div className="skill_name" id={`${color}bor`} style={mode?{}:{color:"#626262"}}>
+          100%
+        </div>
+        <h3>MATERIAL UI</h3>
+      </div>
+      <div className="skill_detail" style={mode?{}:{color:"#626262"}}>
+        <div className="skill_name" id={`${color}bor`} style={mode?{}:{color:"#626262"}}>
+          30%
+        </div>
+        <h3>NEXT JS</h3>
+      </div>
+      <div className="skill_detail" style={mode?{}:{color:"#626262"}}>
+        <div className="skill_name" id={`${color}bor`} style={mode?{}:{color:"#626262"}}>
+          70%
+        </div>
+        <h3>JAVASCRIPT</h3>
+      </div>
+      <div className="skill_detail" style={mode?{}:{color:"#626262"}}>
+        <div className="skill_name" id={`${color}bor`} style={mode?{}:{color:"#626262"}}>
+          80%
+        </div>
+        <h3>CSS</h3>
+      </div>
+      <div className="skill_detail" style={mode?{}:{color:"#626262"}}>
+        <div className="skill_name" id={`${color}bor`} style={mode?{}:{color:"#626262"}}>
+          70%
+        </div>
+        <h3>HTML</h3>
+      </div>
+     
+    </div>
+
     <div className="horizenatl_line">
         <hr/>
     </div>
