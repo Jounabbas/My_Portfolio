@@ -27,8 +27,8 @@ const Home = () => {
           <h1>
             <span id={`${color}s`}>I'M JOUN ABBAS.</span>
           </h1>
-          <h1 style={mode ? {} : { color: "black" }}>WEB DEVELOPER</h1>
-          <p style={mode ? {} : { color: "black" }}>
+          <h1 style={mode ? {} : { color: "#626262" }}>WEB DEVELOPER</h1>
+          <p style={mode ? {} : { color: "#626262" }}>
             I'm a Tunisian based web designer & front‑end developer focused on
             crafting clean & user‑friendly experiences, I am passionate about
             building excellent software that improves the lives of those around
@@ -37,7 +37,7 @@ const Home = () => {
           <button id={`${color}b`} onClick={() => navigate("/about")}>
             <span
               className="text"
-              style={mode ? { color: "white" } : { color: "black" }}
+              style={mode ? { color: "white" } : { color: "#626262" }}
             >
               MORE ABOUT ME
             </span>{" "}

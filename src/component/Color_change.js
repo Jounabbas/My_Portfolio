@@ -4,7 +4,7 @@ import { FiSettings } from "react-icons/fi";
 import { RxCross2 } from "react-icons/rx";
 import { BsDropletFill } from "react-icons/bs"
 import { appcontext } from '../context/context'
-
+ 
 export const Color_change = () => {
 
     const [setting,setsettig]=useState(true)

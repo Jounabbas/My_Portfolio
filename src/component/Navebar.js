@@ -20,7 +20,7 @@ const Navebar = () => {
                 <CiDark className='light_mode' onClick={()=>setmode(!mode)} />
             } 
              
-        </div>
+        </div> 
 
         <div>
             <ul>

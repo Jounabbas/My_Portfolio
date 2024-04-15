@@ -21,7 +21,7 @@ const Contact = () => {
       <div className="parent">
         <div
           className="item left"
-          style={mode ? { color: "white" } : { color: "black" }}
+          style={mode ? { color: "white" } : { color: "#626262" }}
         >
           <h2>DON'T BE SHY !</h2>
           <p>
@@ -70,21 +70,21 @@ const Contact = () => {
               <input
                 type="text"
                 placeholder=" YOUR NAME"
-                style={mode ? {} : { background: "white", color: "black" }}
+                style={mode ? {} : { background: "white", color: "#626262" }}
               />
             </div>
             <div className="form_item">
               <input
                 type="text"
                 placeholder="YOUR EMAIL"
-                style={mode ? {} : { background: "white", color: "black" }}
+                style={mode ? {} : { background: "white", color: "#626262" }}
               />
             </div>
             <div className="form_item">
               <input
                 type="text"
                 placeholder="YOUR OBJECT"
-                style={mode ? {} : { background: "white", color: "black" }}
+                style={mode ? {} : { background: "white", color: "#626262" }}
               />
             </div>
           </div>
@@ -93,14 +93,14 @@ const Contact = () => {
             <textarea
               rows="6"
               placeholder="YOUR MESSAGE"
-              style={mode ? {} : { background: "white", color: "black" }}
+              style={mode ? {} : { background: "white", color: "#626262" }}
             ></textarea>
           </div>
           <div className="home_sec6" id="btn">
             <button id={`${color}b`}>
               <span
                 className="text"
-                style={mode ? { color: "white" } : { color: "black" }}
+                style={mode ? { color: "white" } : { color: "#626262" }}
               >
                 SEND MESSAGE
               </span>{" "}

@@ -80,9 +80,6 @@
     transition: all .2s ease-in-out;
   
 }
-.green{
-    border: 1.5px solid #05c46b ;
-}
 .green span{
     background-color: #05c46b;
     transition: all .2s ease-in-out;
@@ -97,9 +94,6 @@
     background-color: #55efc4;
     transition: all .2s ease-in-out;
 }
-.acqua {
-    border: 1.5px solid #55efc4;
-}
 .acqua span{
     background-color: #55efc4;
     transition: all .2s ease-in-out;
@@ -112,9 +106,6 @@
 .yellow:hover{
     background-color: #ffb400;
     transition: all .2s ease-in-out;
-}
-.yellow {
-    border: 1.5px solid #ffb400;
 }
 .yellow span{
     background-color: #ffb400;
@@ -137,9 +128,6 @@
     background-color: #fd79a8;
     transition: all .2s ease-in-out;
 }
-.pico{
-    border: 1.5px solid #fd79a8;
-}
 .pico span{
     background-color: #fd79a8;
     transition: all .2s ease-in-out;
@@ -152,9 +140,6 @@
 .orange:hover{
     background-color: #e17055;
     transition: all .2s ease-in-out;
-}
-.orange{
-    border: 1.5px solid #e17055;
 }
 .orange span{
     background-color: #e17055;
@@ -169,9 +154,6 @@
     background-color: #0652DD;
     transition: all .2s ease-in-out;
 }
-.blue{
-    border: 1.5px solid #0652DD;
-}
 .blue span{
     background-color: #0652DD;
     transition: all .2s ease-in-out;
@@ -184,9 +166,6 @@
 .rose:hover{
     background-color: #FDA7DF;
     transition: all .2s ease-in-out;
-}
-.rose{
-    border: 1.5px solid #FDA7DF;
 }
 .rose span{
     background-color: #FDA7DF;
@@ -201,9 +180,6 @@
     background-color: #0fbcf9;
     transition: all .2s ease-in-out;
 }
-.disko{
-    border: 1.5px solid #0fbcf9;
-}
 .disko span{
     background-color: #0fbcf9;
     transition: all .2s ease-in-out;
@@ -216,9 +192,6 @@
 .red:hover{
     background-color: rgb(255, 56, 56);
     transition: all .2s ease-in-out;
-}
-.red{
-    border: 1.5px solid rgb(255, 56, 56);
 }
 .red span{
     background-color: rgb(255, 56, 56);
