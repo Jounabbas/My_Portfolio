@@ -90,7 +90,7 @@ const About = () => {
                 className="text" id={`${color}btn`}
                 style={mode ? { color: "white" } : { color: "#626262" }}
               >
-                SEND MESSAGE
+                DOWNLOAD CV
               </span>{" "}
               <span
                 className="span"
