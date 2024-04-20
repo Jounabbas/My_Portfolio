@@ -12,6 +12,7 @@ const Home = () => {
   console.log(setting);
   return (
     <div className="home_sec1">
+      
       <div className="home_sec2">
         <div className="home_sec3" id={`${color}`}>
 
