@@ -4,24 +4,23 @@ import { appcontext } from "../context/context";
 import "../css_component/home.css";
 import "../css_component/home_responsive.css"
 import { GrFormNextLink } from "react-icons/gr";
-
+import pic from "../pic.png"
 const Home = () => {
   const navigate = useNavigate();
-  const { mode, color } = useContext(appcontext);
+  const { mode, color,burger } = useContext(appcontext);
   const [setting] = useState(true);
   console.log(setting);
   return (
     <div className="home_sec1">
-      
       <div className="home_sec2">
         <div className="home_sec3" id={`${color}`}>
 
         </div>
         <div className="home_sec4">
-          <img src="https://tunis-next.netlify.app/assets/img/dark.jpg" alt="..." />
+          <img src={pic} alt="..." />
         </div>
       </div>
-
+ 
       <div className="home_sec5"> 
         <div className="home_sec6">
           <div className="home_sec7" id={`${color}`} w></div>
@@ -35,7 +34,7 @@ const Home = () => {
             building excellent software that improves the lives of those around
             me.
           </p>
-          <button id={`${color}b`} onClick={() => navigate("/about")}>
+          <button id={`${color}b`} onClick={() => navigate("/about")} style={burger?{zIndex:"1"}:{ transition: "all 0s ease-in-out"}}>
             <span
               className="text"
               style={mode ? { color: "white" } : { color: "#626262" }}

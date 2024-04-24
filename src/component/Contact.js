@@ -11,7 +11,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { RiSendPlaneFill } from "react-icons/ri";
 
 const Contact = () => {
-  const { color, mode } = useContext(appcontext);
+  const { color, mode,burger } = useContext(appcontext); 
   return (
     <div className="container">
       <div className="header">
@@ -97,7 +97,7 @@ const Contact = () => {
             ></textarea>
           </div>
           <div className="home_sec6" id="btn">
-            <button id={`${color}b`}>
+            <button id={`${color}b`} style={burger?{zIndex:"1"}:{ transition: "all 0s ease-in-out"}}>
               <span
                 className="text"
                 style={mode ? { color: "white" } : { color: "#626262" }}

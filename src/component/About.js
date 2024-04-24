@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import "../css_component/about.css";
+import "../css_component/about_responsive.css";
 import { appcontext } from "../context/context";
 import { RiSendPlaneFill } from "react-icons/ri";
 import { FaCloudDownloadAlt } from "react-icons/fa";
@@ -9,7 +10,7 @@ import { FaGraduationCap } from "react-icons/fa6";
 
 
 const About = () => {
-  const { color, mode } = useContext(appcontext);
+  const { color, mode,burger } = useContext(appcontext);
   return (
     <div className="container2">
       <div className="header about_header">
@@ -61,7 +62,7 @@ const About = () => {
             <p>
               Email :{" "}
               <span style={mode ? { color: "white" } : { color: "#626262" }}>
-                jounabbas@react.js@gmail.com
+                ajoun0176@gmail.com
               </span>
             </p>
             <p>
@@ -85,7 +86,7 @@ const About = () => {
           </div>
 
           <div className="home_sec6 about_btn" id="btn">
-            <button id={`${color}b`}>
+            <button id={`${color}b`} style={burger?{zIndex:"1"}:{ transition: "all 0s ease-in-out"}}>
               <span
                 className="text" id={`${color}btn`}
                 style={mode ? { color: "white" } : { color: "#626262" }}

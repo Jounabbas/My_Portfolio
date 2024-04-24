@@ -1,0 +1,91 @@
+@media screen and (max-width: 1400px) {
+    .container2{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width: 1200px) {
+   
+}
+@media screen and (max-width: 1150px) {
+    .container2{
+        width: 70%;
+        margin-left: 15%;
+    }
+    .about_sec1{
+        grid-template-columns: 1fr;
+    }
+    .skil_section{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .deg_icon div{
+        height: 100px;
+    }
+    .deg_detail h1{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 950px) {
+    .container2{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .deg_icon div{
+        height: 105px;
+    } 
+    .deg_detail h1{
+        font-size: 18px;
+    }
+    .deg_detail p{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 800px) {
+  
+    .about_header h1{
+        font-size: 60px;
+    }
+    .skil_section{
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+    .about_header{
+        margin-top: 10vh;
+    }
+   
+}
+@media screen and (max-width:670px) {
+    .container2{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .about_header h1{
+        font-size: 50px;
+    }
+    .education_part{
+        grid-template-columns: 1fr;
+    }
+    .deg_icon div{
+        height: 80px;
+    }
+    .deg_detail h1{
+        font-size: 18px;
+    }
+    .deg_detail p{
+        margin-top: 10px;
+    }
+
+}
+@media screen and (max-width:530px) {
+    .skil_section{
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+@media screen and (max-width:400px) {
+    .about_me{
+        width: 100%;
+    }
+    .about_header h1{
+        font-size: 40px;
+    }
+}

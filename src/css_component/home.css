@@ -19,11 +19,15 @@
 
 .home_sec3{
    background-color: palevioletred;
+   clip-path: polygon(0% 0%, 46.25% 0%, 100% 100%, 0% 100%);
+  
+
 }
 .home_sec4{
     position: absolute;
+
     top: 5vh; 
-    left: 15%;
+    left: 7%;
     /* margin-top: 5vh; */
     height: 90vh;
     width: 70%;
@@ -80,7 +84,7 @@
   width: 300px;
   height: 60px;
   margin-top: 30px;
-    border-radius: 40px;
+border-radius: 40px;
   overflow: hidden;
   border: 3px solid aqua;
 }
@@ -98,6 +102,7 @@
     position: relative;
 }
 .home_sec6 button{
+    z-index: -1;
     width: 250px;
     height: 60px;
     margin-top: 30px;
@@ -107,7 +112,7 @@
     font-weight: bold;
     cursor: pointer;
     position: relative;
-    transition: all .5s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 .hover_effect{
     position: absolute;

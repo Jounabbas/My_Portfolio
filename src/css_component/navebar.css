@@ -66,9 +66,86 @@
     color: white;
     text-decoration: none;
 }
+
+.ham_burger{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    right: 3%;
+    top: 20px;
+    background-color: #2b2a2a;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1;
+    display: none;
+    transition: all .3s ease-in-out;
+}
+.ham_burger:hover{
+    background-color: palevioletred;
+    transition: all .3s ease-in-out;
+}
+.res_light_mod{
+    display: none;
+   position: absolute;
+   top: 100px;
+   right: 3%;
+   z-index: 1;
+   background-color: #2b2a2a;
+}
+.nave2{
+    /* display: none; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+   width: 0;
+   transition:all .5s ease-in-out;
+    height: 100vh;
+    background-color: #727272;
+   
+}
+.nave2 ul{
+    margin-top: 120px;
+    font-size:30px;
+    
+}
+.nave2 ul li{
+    list-style: none;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.nave2 ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+.nave2 ul li a:hover{
+    color: palevioletred;
+    transition: all .3s ease-in-out;
+}
+.icons{
+    margin-right: 40px;
+}
+    
+
 @media screen and (max-width: 1500px) {
     .nave{
         height: 550px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .nave{
+        display: none;
+    }
+    .ham_burger{
+        display:  flex;
+    }
+    .res_light_mod{
+        display:  flex;
     }
 }
 
@@ -79,6 +156,10 @@
     background-color: #05c46b;
     transition: all .2s ease-in-out;
   
+}
+.greens ul li a:hover{
+    color:#05c46b ;
+    transition: all .3s ease-in-out;
 }
 .green span{
     background-color: #05c46b;
@@ -94,6 +175,10 @@
     background-color: #55efc4;
     transition: all .2s ease-in-out;
 }
+.acquas ul li a:hover{
+    color:#55efc4 ;
+    transition: all .3s ease-in-out;
+}
 .acqua span{
     background-color: #55efc4;
     transition: all .2s ease-in-out;
@@ -106,6 +191,10 @@
 .yellow:hover{
     background-color: #ffb400;
     transition: all .2s ease-in-out;
+}
+.yellows ul li a:hover{
+    color:#ffb400 ;
+    transition: all .3s ease-in-out;
 }
 .yellow span{
     background-color: #ffb400;
@@ -124,6 +213,10 @@
     background-color: #ee6192;
     transition: all .2s ease-in-out;
 }
+.picos ul li a:hover{
+    color:#fd79a8 ;
+    transition: all .3s ease-in-out;
+}
 .pico:hover{
     background-color: #fd79a8;
     transition: all .2s ease-in-out;
@@ -141,6 +234,10 @@
     background-color: #e17055;
     transition: all .2s ease-in-out;
 }
+.oranges ul li a:hover{
+    color:#e17055 ;
+    transition: all .3s ease-in-out;
+}
 .orange span{
     background-color: #e17055;
     transition: all .2s ease-in-out;
@@ -153,6 +250,10 @@
 .blue:hover{
     background-color: #0652DD;
     transition: all .2s ease-in-out;
+}
+.blues ul li a:hover{
+    color:#0652DD;
+    transition: all .3s ease-in-out;
 }
 .blue span{
     background-color: #0652DD;
@@ -167,6 +268,10 @@
     background-color: #FDA7DF;
     transition: all .2s ease-in-out;
 }
+.roses ul li a:hover{
+    color:#FDA7DF;
+    transition: all .3s ease-in-out;
+}
 .rose span{
     background-color: #FDA7DF;
     transition: all .2s ease-in-out;
@@ -180,6 +285,10 @@
     background-color: #0fbcf9;
     transition: all .2s ease-in-out;
 }
+.diskos ul li a:hover{
+    color:#0fbcf9;
+    transition: all .3s ease-in-out;
+}
 .disko span{
     background-color: #0fbcf9;
     transition: all .2s ease-in-out;
@@ -192,6 +301,10 @@
 .red:hover{
     background-color: rgb(255, 56, 56);
     transition: all .2s ease-in-out;
+}
+.reds ul li a:hover{
+    color:rgb(255, 56, 56);
+    transition: all .3s ease-in-out;
 }
 .red span{
     background-color: rgb(255, 56, 56);

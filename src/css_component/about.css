@@ -7,7 +7,6 @@
     width: 70%;
 
     margin-left: 15%;
-    border: 2px solid white;
 } 
 .about_header{
     margin-top: 5vh;
@@ -20,16 +19,23 @@
     column-gap: 40px;
 }
 .about_item1{
-    display: grid;
+    /* display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 20px;
+    border: 2px solid rgb(181, 9, 9);
+    column-gap: 20px; */
 }
 .about_me{
     margin-top: 30px;
    margin-bottom: 20px;
+
+  width: 50%;
+
+  float: left;
+ 
 }
 .about_btn{
-    width: 300px;
+   width: 250px;
+
 }
 .about_me p{
     color: #939393;
@@ -59,6 +65,7 @@
     font-size: 18px;
     margin-top: 20px;
     text-align: center;
+    margin-bottom: 15px;
 }
 
 .horizenatl_line{
@@ -112,6 +119,7 @@
 
 
 .education_part{
+
     width: 100%;
     margin-top: 100px;
     display: grid;
@@ -124,9 +132,8 @@
 
     display: grid;
     grid-template-columns: .12fr 1fr;
-
     column-gap: 10px;
-    height: 150px;
+    margin-bottom: 10px;
 }
 .deg_icon{
     position: relative;

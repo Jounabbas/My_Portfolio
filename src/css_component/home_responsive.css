@@ -14,6 +14,9 @@
     }
 }
 @media screen and (max-width: 1325px) {
+  
+}
+@media screen and (max-width: 1325px) { 
     .home_sec6 h1{
         font-size: 35px;
         line-height: 40px;
@@ -22,15 +25,17 @@
         font-size: 15px;
         font-weight: 600;
     }
-}
-@media screen and (max-width: 1325px) {
     .home_sec1{
         grid-template-columns: 1fr 1.5fr;
     }
     .home_sec4{
+       
         margin-bottom: 40px;
         left: 10%;
         width: 80%;
+    }
+    .home_sec3{
+        height: 100vh;
     }
     .home_sec2{
         margin-bottom: 40px;
