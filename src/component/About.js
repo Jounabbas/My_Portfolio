@@ -54,7 +54,7 @@ const About = () => {
 
           <div className="about_me">
             <p>
-              Address :{" "}
+              Adress :{" "}
               <span style={mode ? { color: "white" } : { color: "#626262" }}>
                 Jamman Shah
               </span>
