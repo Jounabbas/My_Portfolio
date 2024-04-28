@@ -37,6 +37,9 @@
     .left p{
         margin-top: 10px;
     }
+    .text_area{
+        width: 96%;
+    }
 }
 
 @media screen and (max-width: 690px) {
@@ -69,7 +72,7 @@
         font-size: 40px;
     }
     .container{
-        width: 90%;
-        margin-left: 5%;
+        width: 86%;
+        margin-left: 7%;
     }
 }

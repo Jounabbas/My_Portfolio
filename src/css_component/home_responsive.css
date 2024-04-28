@@ -69,6 +69,7 @@
     }
     .home_sec6{
         margin-top: 50vh;  
+        
     }
 }
 @media screen and (max-width: 600px) {
@@ -109,5 +110,15 @@
 @media screen and (max-width: 400px) {
     .home_sec6{
         width: 320px;
+    }
+    .home_sec6{
+        margin-top: 35vh;
+    }
+    .home_sec4{
+        height: 200px;
+    }
+    .home_sec4 img{
+        height: 200px;
+        width: 200px;
     }
 }

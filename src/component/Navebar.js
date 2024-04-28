@@ -46,7 +46,7 @@ const Navebar = () => {
                     < NavLink to="/contact" className={`light_icon ${color}`} > <HiOutlineMailOpen         className='light_mode' />
                         <span className={`${color}`}>CONTACT</span>
                     </ NavLink>
-                </li>
+                </li> 
             </ul>
         </div>
     </div>

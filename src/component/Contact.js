@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import "../css_component/contact.css";
 import "../css_component/contact_responsive.css";
 import { appcontext } from "../context/context";
@@ -7,11 +7,52 @@ import { FaPhoneSquareAlt } from "react-icons/fa";
 import { GrFacebookOption } from "react-icons/gr";
 import { FaTwitter } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa"; 
 import { RiSendPlaneFill } from "react-icons/ri";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   const { color, mode,burger } = useContext(appcontext); 
+  const to="ajoun0176@gmail.com"
+  const [formdata,setformdata]=useState({
+      name:"",
+      email:"",
+      subject:"",
+      description:"",
+   }
+  )
+  const handleform=(e)=>{
+      const { name, value } = e.target;
+      setformdata((prevData) => ({
+        ...prevData,
+        [name]: value,
+      }));
+
+    
+  }
+
+   const submit = (e) => {
+      e.preventDefault();
+  
+      const {name,email,subject,description } = formdata;
+  
+      // Create a mailto link with the form data
+    if(name===""||email===""||subject===""){
+        alert("Fill All Input Feild Required For Send Message")
+    }
+    else{
+        const mailtoLink = `mailto:${to}?subject=Form Submission&body=
+        Name: ${name}%0D%0A,
+        User_email: ${email}%0D%0A,
+        Your_subject: ${subject}%0D%0A,
+        description: ${description}`;
+  
+      // Open the mail client with the mailto link
+      window.location.href = mailtoLink;
+    }
+    };
+
+
   return (
     <div className="container">
       <div className="header">
@@ -30,8 +71,8 @@ const Contact = () => {
             visions.
           </p>
           <div className="icon_section">
-            <div className="icon_item mail_icon" id={`${color}s`}>
-              <HiMailOpen />
+            <div className="icon_item mail_icon">
+              <Link   id={`${color}s`} to={""} ><HiMailOpen /></Link>
             </div>
             <div className="icon_item">
               <h4>MAIL ME</h4>
@@ -40,7 +81,7 @@ const Contact = () => {
           </div>
           <div className="icon_section">
             <div className="icon_item mail_icon" id={`${color}s`}>
-              <FaPhoneSquareAlt />
+                <Link to={""} id={`${color}s`}>   <FaPhoneSquareAlt /></Link>
             </div>
             <div className="icon_item">
               <h4>CALL ME</h4>
@@ -49,26 +90,38 @@ const Contact = () => {
           </div>
 
           <div className="footer_icon">
-            <span id={`${color}h`}>
-              <GrFacebookOption />
-            </span>
-            <span id={`${color}h`}>
-              <FaTwitter />
-            </span>
-            <span id={`${color}h`}>
-              <FaGithub />
-            </span>
-            <span id={`${color}h`}>
-              <FaLinkedin />
-            </span>
+            <Link target="_blank" to={"https://www.facebook.com/john.abbas.5473?mibextid=JRoKGi"}>
+              <span id={`${color}h`} >
+                <GrFacebookOption />
+              </span>
+            </Link>
+
+            <Link to={""}>
+              <span id={`${color}h`}>
+                <FaTwitter />
+              </span>
+            </Link>
+            <Link target="_blank" to={"https://github.com/Jounabbas?tab=repositories"}>  
+              <span id={`${color}h`}>
+                <FaGithub />
+              </span>
+            </Link>
+          <Link target="_blank" to={"https://www.linkedin.com/in/joun-abbas-05b285261"}>
+              <span id={`${color}h`}>
+                <FaLinkedin />
+              </span>
+          </Link>
           </div>
         </div>
 
-        <div className="item right">
+        <div className="item right" >
           <div className="form_parent">
             <div className="form_item">
               <input
                 type="text"
+                name="name"
+                value={formdata.name}
+                onChange={handleform}
                 placeholder=" YOUR NAME"
                 style={mode ? {} : { background: "white", color: "#626262" }}
               />
@@ -76,6 +129,9 @@ const Contact = () => {
             <div className="form_item">
               <input
                 type="text"
+                name="email"
+                  value={formdata.email}
+                onChange={handleform}
                 placeholder="YOUR EMAIL"
                 style={mode ? {} : { background: "white", color: "#626262" }}
               />
@@ -83,6 +139,9 @@ const Contact = () => {
             <div className="form_item">
               <input
                 type="text"
+                name="subject"
+                  value={formdata.subject}
+                onChange={handleform}
                 placeholder="YOUR OBJECT"
                 style={mode ? {} : { background: "white", color: "#626262" }}
               />
@@ -91,13 +150,16 @@ const Contact = () => {
 
           <div className="text_area">
             <textarea
+            onChange={handleform}
+            name="description"
+              value={formdata.description}
               rows="6"
               placeholder="YOUR MESSAGE"
               style={mode ? {} : { background: "white", color: "#626262" }}
             ></textarea>
           </div>
           <div className="home_sec6" id="btn">
-            <button id={`${color}b`} style={burger?{zIndex:"1"}:{ transition: "all 0s ease-in-out"}}>
+            <button id={`${color}b`} style={burger?{zIndex:"1"}:{ transition: "all 0s ease-in-out"}} onClick={submit}>
               <span
                 className="text"
                 style={mode ? { color: "white" } : { color: "#626262" }}

@@ -3,6 +3,9 @@
     padding:0 ;
     box-sizing: border-box;
 }
+
+
+
 .container2{
     width: 70%;
 
@@ -81,13 +84,18 @@
     background-color: #939393;
 } 
 
-
+.my_skill{
+    width: 100%;
+    margin: 50px  0;
+    text-align: center;
+    color: white;
+}
 .skil_section{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 50px;
     row-gap: 90px;
-    margin-top: 100px;
+    margin-top: 60px;
     width: 80%;
     margin-left: 10%;
 }
@@ -116,27 +124,35 @@
 }
 
 
-
+.education_heading{
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
 
 .education_part{
-
     width: 100%;
-    margin-top: 100px;
+    margin-top: 60px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 40px; 
     row-gap: 60px;
     color: white;
 }
+.exprirnce_part{
+   
+}
 .education_items{
-
     display: grid;
+    min-height: 160px;
     grid-template-columns: .12fr 1fr;
     column-gap: 10px;
     margin-bottom: 10px;
 }
 .deg_icon{
     position: relative;
+    z-index: -1;
 }
 .deg_icon p{
    display: flex;cursor: pointer;
@@ -154,8 +170,12 @@
     left: 20px;
     width: 2px ;
     background-color: #939393;
-    height: 80px;
+    min-height: 110px;
+    z-index: -1;
 } 
+.degree_part{
+   
+}
 .deg_detail{
    
 }
@@ -170,12 +190,13 @@
 }
 .deg_detail h1{
     font-size: 22px;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 .deg_detail h1 span{
     color: #a7a6a6;
 }
 .deg_detail p{
-    margin-top: 25px;
+    margin-top: 10px;
     margin-bottom: 2px;
+    text-align: justify;
 }

@@ -9,6 +9,7 @@ import { appcontext } from './context/context';
 import { Color_change } from './component/Color_change';
 import Contact from './component/Contact';
 import About from './component/About';
+import Portfolio from './component/Portfolio';
 
 function App() {
   const {mode}=useContext(appcontext)
@@ -30,6 +31,7 @@ function App() {
           <Route exact path='/' element={<Home/>}/>
           <Route exact path='/about' element={<About/>}/>
           <Route exact path='/contact' element={<Contact/>}/>
+          <Route exact path='/portfolio' element={<Portfolio/>}/>
         </Routes>
       </Main>
    </div> 

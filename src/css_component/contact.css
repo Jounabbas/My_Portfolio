@@ -12,7 +12,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     margin-top: 16vh;
 }
 .header h1{
@@ -63,7 +63,7 @@
     cursor: pointer;
 }
 
-.mail_icon{
+.mail_icon a{
 
     font-size: 40px;
     color: palevioletred;
@@ -90,8 +90,8 @@
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     transition: all .3s ease-in-out;
    border-radius: 50%;
    cursor: pointer;
@@ -107,7 +107,7 @@
     column-gap: 40px;
 }
 .form_item{
-   
+   margin-right: 20px;
 }
 .form_item input{
     font-size: 16px;
@@ -121,7 +121,9 @@
 }
 .text_area{
     width: 100%;
+    display: inline-block;
     margin-top: 30px;
+   
 }
 .text_area textarea{
     width: 100%;
@@ -131,6 +133,7 @@
     background-color:#656464 ;
     padding: 20px ;
     font-size: 16PX;
+  
 }
 #btn{
     margin-top: 0px;

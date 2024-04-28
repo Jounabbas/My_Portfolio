@@ -13,13 +13,13 @@ const Home = () => {
   return (
     <div className="home_sec1">
       <div className="home_sec2">
-        <div className="home_sec3" id={`${color}`}>
+        <div className="home_sec3" id={`${color}`}> 
 
         </div>
         <div className="home_sec4">
           <img src={pic} alt="..." />
         </div>
-      </div>
+      </div> 
  
       <div className="home_sec5"> 
         <div className="home_sec6">
@@ -29,10 +29,7 @@ const Home = () => {
           </h1>
           <h1 style={mode ? {} : { color: "#626262" }}>WEB DEVELOPER</h1>
           <p style={mode ? {} : { color: "#626262" }}>
-            I'm a pakistani based web designer & front‑end developer focused on
-            crafting clean & user‑friendly experiences, I am passionate about
-            building excellent software that improves the lives of those around
-            me.
+          As a React front-end developer, i specialize in building user interfaces and interactive web applications using the React JavaScript library. Your skill set includes proficiency in HTML, CSS, and JavaScript, along with a strong understanding of React's component-based architecture, state management solutions like Redux or Context API, and modern front-end development tools and workflows.
           </p>
           <button id={`${color}b`} onClick={() => navigate("/about")} style={burger?{zIndex:"1"}:{ transition: "all 0s ease-in-out"}}>
             <span
