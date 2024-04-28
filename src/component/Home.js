@@ -29,7 +29,7 @@ const Home = () => {
           </h1>
           <h1 style={mode ? {} : { color: "#626262" }}>WEB DEVELOPER</h1>
           <p style={mode ? {} : { color: "#626262" }}>
-            I'm a Tunisian based web designer & front‑end developer focused on
+            I'm a pakistani based web designer & front‑end developer focused on
             crafting clean & user‑friendly experiences, I am passionate about
             building excellent software that improves the lives of those around
             me.
