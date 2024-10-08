@@ -74,10 +74,10 @@
 .home_sec6 p{
   
    margin-top: 30px;
-   text-align: justify;
+   text-align: left;
    font-size: 18px;
-   font-weight: 700;
-   line-height: 30px;
+   /* font-weight: 700; */
+   line-height: 25px;
 }
 .btn {
   position: relative;

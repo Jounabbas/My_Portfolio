@@ -16,7 +16,7 @@ function App() {
   useEffect(() => {
     const body = document.querySelector('body');
     if (mode) {
-      body.style.backgroundColor = 'rgb(17,17,17)';
+      body.style.backgroundColor = 'rgb(17,17,20)';
      
     } else {
       body.style.backgroundColor = 'white';

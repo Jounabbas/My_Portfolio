@@ -5,8 +5,7 @@
 }
 .header3{
     width: 70%;
-    margin-left: 15%;
-    
+    margin-left: 15%; 
 }
          
 .first_project{
@@ -14,9 +13,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-
-  margin-top: 100px;
-  height: 500px;
+  margin-top: 60px;
 }
 .project1_image{
 
@@ -27,10 +24,10 @@
  width: 100%;
 }
 .project1_description{
-
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: space-around; */
 }
 .project1_description h2{
   color: white;
@@ -39,7 +36,7 @@
 }
 .project1_description p{
 color: white;
-text-align: justify;
+text-align: left;
 line-height: 25px;
 font-size: 18px;
 margin:20px ;
@@ -98,7 +95,8 @@ margin:20px ;
     margin-left: 10%;
   }
   .first_project{
-    height: 600px;
+    /* height: 600px; */
+    grid-template-columns: 1fr;
   }
   .project1_image{
     height:600px;
@@ -106,7 +104,7 @@ margin:20px ;
 }
 @media screen and (max-width:850px) {
   .first_project{
-    height: 1000px;
+    /* height: 1000px; */
     grid-template-columns: 1fr;
   }
 }

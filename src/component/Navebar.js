@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext } from 'react'
 import "../css_component/navebar.css"
 import { CiLight } from "react-icons/ci";
 import { IoHome } from "react-icons/io5";
@@ -10,7 +10,7 @@ import { Link, NavLink } from 'react-router-dom';
 import { appcontext } from '../context/context';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross2 } from "react-icons/rx";
-const Navebar = () => {
+const Navebar = () => { 
    const{mode,setmode,color,burger,setburger}=useContext(appcontext)
 
  

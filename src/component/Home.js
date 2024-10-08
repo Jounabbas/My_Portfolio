@@ -18,7 +18,7 @@ const Home = () => {
         </div>
         <div className="home_sec4">
           <img src={pic} alt="..." />
-        </div>
+        </div> 
       </div> 
  
       <div className="home_sec5"> 
@@ -29,7 +29,7 @@ const Home = () => {
           </h1>
           <h1 style={mode ? {} : { color: "#626262" }}>WEB DEVELOPER</h1>
           <p style={mode ? {} : { color: "#626262" }}>
-          As a React front-end developer, i specialize in building user interfaces and interactive web applications using the React JavaScript library. Your skill set includes proficiency in HTML, CSS, and JavaScript, along with a strong understanding of React's component-based architecture, state management solutions like Redux or Context API, and modern front-end development tools and workflows.
+          As a React front-end developer, I specialize in building user interfaces and interactive web applications using the React JavaScript library. My skill set includes proficiency in HTML, CSS, and JavaScript, along with a strong understanding of React's component-based architecture, state management solutions like Redux or Context API, and modern front-end development tools and workflows.
           </p>
           <button id={`${color}b`} onClick={() => navigate("/about")} style={burger?{zIndex:"1"}:{ transition: "all 0s ease-in-out"}}>
             <span

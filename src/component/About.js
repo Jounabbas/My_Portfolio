@@ -5,7 +5,6 @@ import { appcontext } from "../context/context";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 import { FaToolbox } from "react-icons/fa";
 import { FaGraduationCap } from "react-icons/fa6";
-import { Link } from "react-router-dom";
 import resume from "../joun.pdf";
 
 const About = () => {

@@ -8,7 +8,7 @@ import { appcontext } from '../context/context'
 export const Color_change = () => {
 
     const [setting,setsettig]=useState(true)
-    const {mode,color,setcolor}=useContext(appcontext)
+    const {setcolor}=useContext(appcontext)
   return (
     
     <div>
@@ -17,6 +17,7 @@ export const Color_change = () => {
             <FiSettings className={`setting ${setsettig}`} onClick={()=>setsettig(!setting)} style={{color:"black"}}/>
         </div>:<div className='home_span'>
             <div><RxCross2 className='cross'onClick={()=>setsettig(!setting)} style={{color:"black"}}/></div>
+
             <div className='color_pick' onClick={()=>setsettig(!setting)}>
                 <BsDropletFill onClick={()=>setcolor("yellow")}/> 
                 <BsDropletFill onClick={()=>setcolor("acqua")} style={{color:"#55efc4"}}/> 
