@@ -17,7 +17,7 @@
 }
 .project3{
  
-  margin-top: 80px;
+ 
   margin-bottom: 30px;
 }
 .project1_image{
@@ -115,7 +115,7 @@ margin:20px ;
 }
 @media screen and (max-width:450px) {
   .first_project{
-    height: 400px;
+    
    
   }
   .first_project button{
