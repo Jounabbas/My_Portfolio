@@ -39,6 +39,20 @@ const Portfolio = () => {
           </div>
        </div>
 
+       <div className='first_project project3' >
+        
+          <div className='project1_description' > 
+            <h2 style={mode ? {} : { color: "#626262" }}>React Todo App</h2>
+            <p style={mode ? {} : { color: "#626262" }}>A React To-Do App is a simple, interactive application built using React, a popular JavaScript library for building user interfaces. The app allows users to create, view, and delete tasks, helping them manage their daily tasks efficiently. It typically features a clean, responsive interface .  React’s state management makes it easy to dynamically update the task list without reloading the page, enhancing the user experience.✨</p>
+           <div style={burger?{zIndex:"1"}:{ transition: "all 0s ease-in-out"}}>
+              <Link target='_blank' to={"https://react-todo-app-w2bh.vercel.app/"}><button target="_blank" id={`${color}b`}  style={mode ? {} : { color: "#626262" } } >Live Demo <span id={color}></span></button></Link>
+             <Link target='_blank' to={"https://github.com/Jounabbas/React-Todo-App.git"}> <button id={`${color}b`} style={mode ? {} : { color: "#626262" }}>Git Hub <span id={color}></span></button></Link>
+           </div>
+          </div>
+
+          
+       </div>
+
 
        {/* <div className='first_project' >
          
